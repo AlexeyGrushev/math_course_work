@@ -1,3 +1,4 @@
-# math_course_work
+# Math
 Сourse work
+
 Yablokov Alex
