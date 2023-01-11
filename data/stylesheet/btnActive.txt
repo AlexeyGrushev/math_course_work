@@ -1,0 +1,16 @@
+"""QPushButton{
+	
+	font: 87 14pt "Arial";
+	color: white;
+	background-color: #aa0000;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+QPushButton:hover {
+    background: rgb(125, 0, 0)
+
+    }
+QPushButton:pressed {
+    border-style: inset;
+    background: rgb(85, 85, 85);
+    }"""

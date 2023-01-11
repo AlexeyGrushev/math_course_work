@@ -1,0 +1,5 @@
+"""font: 87 14pt Arial; 
+color: black;
+background-color: #f59898;
+border: 2px solid red;
+border-radius: 10px;"""
