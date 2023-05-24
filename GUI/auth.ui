@@ -220,7 +220,7 @@ QPushButton:pressed {
        <number>30</number>
       </property>
       <property name="placeholderText">
-       <string/>
+       <string>Логин...</string>
       </property>
      </widget>
      <widget class="QLineEdit" name="password">
@@ -246,6 +246,9 @@ QPushButton:pressed {
       </property>
       <property name="echoMode">
        <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>Пароль...</string>
       </property>
      </widget>
      <widget class="QLabel" name="label">
@@ -297,6 +300,9 @@ QPushButton:pressed {
       </property>
       <property name="echoMode">
        <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="placeholderText">
+       <string>Класс...</string>
       </property>
      </widget>
      <widget class="QPushButton" name="regBtn">
@@ -376,7 +382,7 @@ QPushButton:pressed {
        <number>30</number>
       </property>
       <property name="placeholderText">
-       <string/>
+       <string>Фамилия...</string>
       </property>
      </widget>
      <widget class="QLabel" name="regLbl">
@@ -461,7 +467,7 @@ QPushButton:pressed {
        <number>30</number>
       </property>
       <property name="placeholderText">
-       <string/>
+       <string>Имя...</string>
       </property>
      </widget>
      <widget class="QLineEdit" name="loginR">
@@ -488,6 +494,9 @@ QPushButton:pressed {
       <property name="echoMode">
        <enum>QLineEdit::Normal</enum>
       </property>
+      <property name="placeholderText">
+       <string>Логин...</string>
+      </property>
      </widget>
      <widget class="QLineEdit" name="passwordR">
       <property name="geometry">
@@ -512,6 +521,9 @@ QPushButton:pressed {
       </property>
       <property name="echoMode">
        <enum>QLineEdit::PasswordEchoOnEdit</enum>
+      </property>
+      <property name="placeholderText">
+       <string>Пароль...</string>
       </property>
      </widget>
      <zorder>label_2</zorder>
