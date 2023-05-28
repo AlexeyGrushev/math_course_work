@@ -90,6 +90,7 @@ class Ui(QMainWindow):
         self.createGraphBtn.clicked.connect(self.create_graphic)
         self.clearGraphBtn.clicked.connect(self.clear_graphic)
 
+        self.tech_supportBtn.clicked.connect(self.tech_support_link)
         self.exitBtn.clicked.connect(self.exit)
         self.saveStat.clicked.connect(self.saveStatistic)
         pass
@@ -308,6 +309,12 @@ ID: {self.id}
                 "Статистика",
                 "Не удалось сохранить статистику!"
             )
+    
+    def tech_support_link(self) -> None:
+        import webbrowser
+        webbrowser.open("https://t.me/mytestisp_bot")
+        pass
+
     def exit(self):
         with open('data/profile.txt', 'w', encoding='utf-8') as f:
             f.write("None")

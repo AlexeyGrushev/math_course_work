@@ -33,6 +33,8 @@ class Ui(QMainWindow):
 
         self.regBtn.clicked.connect(self.registration)
         self.authBtn.clicked.connect(self.authentication)
+
+        self.tech_supportBtn.clicked.connect(self.tech_support_link)
         pass
 
     def timer(self) -> None:
@@ -139,6 +141,11 @@ class Ui(QMainWindow):
                 QApplication.exit()
            
     
+    def tech_support_link(self) -> None:
+        import webbrowser
+        webbrowser.open("https://t.me/mytestisp_bot")
+        pass
+
     def registration(self) -> None:
         reg_module(self)
         pass
